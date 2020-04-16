@@ -24,32 +24,23 @@ export default {
 
 <style>
 .task {
-  box-sizing: border-box;
-  width: 400px;
+  /*box-sizing: border-box;*/
+  width: 90%;
   padding: 0 1%;
-  position: relative;
   border: 2px solid green;
   border-radius: 15px;
-  height: 66px;
-  margin: 2% 0;
+  height: auto;
+  margin: 1% 0;
 }
 
 .task > * {
   display: inline-block;
 }
 
-.task:only-child {
-  width: 100%;
-  height: auto;
-}
-
 .disposeBtn {
   color: white;
   background-color: firebrick;
   border-radius: 10px;
-  position: absolute;
-  top: 19px;
-  right: 15px;
 }
 
 .disposeBtn:hover {

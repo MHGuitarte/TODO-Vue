@@ -30,4 +30,9 @@ export default {
 </script>
 
 <style>
+#taskList {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 </style>
